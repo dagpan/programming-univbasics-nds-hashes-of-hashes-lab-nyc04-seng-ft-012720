@@ -44,20 +44,17 @@ def naming_system
   hash1 = {
      :sub => {:label => "Kingdom",
               :sub => {:label => "Phylum",
- 
- 
- 
- 
- 
-              => {
-             :class => "Wizard"
-                    }
-                  },
-     :order => {},
-     :family => {
-         :genus => "Male"
-                },
-     :species => "Elven"        
+                       :sub => {:label => "Class",
+                                :sub => {:label => "Order",
+                                         :sub => {:label => "Family",
+                                                  :sub => {:label => "Genus",
+                                                           :sub => {:label => "Species"}
+                                                          }
+                                                 }
+                                        }
+                               }
+                      }
+             }
      }
   hash1
 end
