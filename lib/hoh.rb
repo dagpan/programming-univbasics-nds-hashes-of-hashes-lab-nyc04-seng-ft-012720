@@ -53,6 +53,5 @@ def naming_system
                 },
      :species => "Elven"        
      }
-  }
   hash1
 end
