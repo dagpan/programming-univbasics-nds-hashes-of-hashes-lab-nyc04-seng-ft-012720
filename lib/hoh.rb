@@ -47,9 +47,5 @@ def naming_system
      
      
   }
-  
-  
-  
-  
   hash1
 end
